@@ -54,8 +54,8 @@
   // If UseProvidedCerts is true, provided files will be used on created HTTPS ingresses.
   // Use a wildcard certificate for the domain like ex. "*.192.168.99.100.nip.io"
   UseProvidedCerts: false,
-  TLSCertificate: importstr 'server.crt',
-  TLSKey: importstr 'server.key',
+  //TLSCertificate: importstr 'server.crt',
+  //TLSKey: importstr 'server.key',
 
   // Persistent volume configuration
   enablePersistence: {
